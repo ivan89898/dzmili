@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int stoimost = 20000; // стоимость билета
-        int rubliNaMili = 20; // количество рублей, за которые начисляется 1 миля
+        int price = 20000; // стоимость билета
+        int rublesMiles = 20; // количество рублей, за которые начисляется 1 миля
 
         System.out.println("Количество начисленных миль за купленный билет:");
-        System.out.println((stoimost/rubliNaMili) + "миль");
+        System.out.println((price/rublesMiles) + "миль");
 
 
         // Объявляете переменные для входных данных и
