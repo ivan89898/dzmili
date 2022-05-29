@@ -4,7 +4,7 @@ public class Main {
         int rublesMiles = 20; // количество рублей, за которые начисляется 1 миля
 
         System.out.println("Количество начисленных миль за купленный билет:");
-        System.out.println((price/rublesMiles) + "миль");
+        System.out.println((price / rublesMiles) + "миль");
 
 
         // Объявляете переменные для входных данных и
